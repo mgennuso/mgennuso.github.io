@@ -19,6 +19,17 @@ max-height: 300px;
 margin: auto;
 }
 
+a.button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding: 1%;
+    background: lightgray;
+    border: black;
+    border-width: thin;
+    border-style: solid;
+
 .center {
   display: block;
   margin-left: auto;
