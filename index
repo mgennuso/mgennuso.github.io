@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Recipe Library</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/capstone.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<div id="container">
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="file:///C:/Users/mkinsman/Documents/Coding_Class/html/capstone_index.html" class="w3-bar-item w3-button">Recipe Library</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="file:///C:/Users/mkinsman/Documents/Coding_Class/html/capstone_index.html" class="w3-bar-item w3-button">Home</a>
+      <a href="file:///C:/Users/mkinsman/Documents/Coding_Class/html/subscribe.html" class="w3-bar-item w3-button">Subscribe</a>
+    </div>
+  </div>
+</div>
+ <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">   
+<img src="file:///C:/Users/mkinsman/Documents/Coding_Class/images/muffin.jpg" alt="blueberry muffin" class="center w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Blueberry Muffin</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+<button class="center"><a href="file:///C:/Users/mkinsman/Documents/Coding_Class/html/recipe.html">View Recipe</a></button>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="file:///C:/Users/mkinsman/Documents/Coding_Class/images/ratatouille.jpg" alt="ratatouille" class="center w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Ratatouille</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="file:///C:/Users/mkinsman/Documents/Coding_Class/images/falafel.jpg" alt="falafel" class="center w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Falafel</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="file:///C:/Users/mkinsman/Documents/Coding_Class/images/fruit_tart.jpg" alt="fruit-tart" class="center w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Fruit Tart</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="file:///C:/Users/mkinsman/Documents/Coding_Class/images/lasagna.jpg" alt="Lasagna" class="center w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lasagna</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+       <img src="file:///C:/Users/mkinsman/Documents/Coding_Class/images/shakshuka.jpg" alt="Shakshuka" class="center w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Shakshuka</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+<footer>
+<p>This is the footer</p>
+</footer>
+</html>
