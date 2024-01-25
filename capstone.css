@@ -59,12 +59,13 @@ height: 50px;
 
 
 .carousel {
-width: 30%;
+min-width: 200px;
+  max-width: 300px;
 margin: 30px auto;
 }
 
 .carousel-inner {
-width: 41% !important;
+width: 41vw !important;
 margin: auto;
 }
 
