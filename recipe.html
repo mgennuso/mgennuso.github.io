@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Recipe Library</title>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/capstone.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
+
+</head>
+
+<body>
+<div id="container">
+<!-- Navbar (sit on top) -->
+<style>
+.w3-top, .w3-bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.w3-top {
+top: 0;
+}
+
+.w3-white, .w3-hover-white:hover {
+    color: #000!important;
+    background-color: #fff!important;
+}
+
+.w3-padding {
+    padding: 8px 16px!important;
+}
+
+.w3-card, .w3-card-2 {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.w3-bar {
+    width: 100%;
+    overflow: hidden;
+}
+
+.w3-row-padding {
+padding: 0 8px;
+margin-top: 75px;
+}
+
+.w3-bar .w3-button {
+    white-space: normal;
+}
+.w3-bar .w3-bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+
+.w3-right {
+    float: right!important;
+}
+
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.w3-button:hover {
+    color: #000!important;
+    background-color: #ccc!important;
+}
+</style>
+
+
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="file:///C:/Users/mkinsman/Documents/Coding_Class/html/capstone_index.html" class="w3-bar-item w3-button">Recipe Library</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="file:///C:/Users/mkinsman/Documents/Coding_Class/html/capstone_index.html" class="w3-bar-item w3-button">Home</a>
+      <a href="file:///C:/Users/mkinsman/Documents/Coding_Class/html/subscribe.html" class="w3-bar-item w3-button">Subscribe</a>
+    </div>
+  </div>
+</div>
+
+<div id="copy">
+<h1 style="color:#005035; font-weight:600">Blueberry Muffin Recipe</h1>
+<p>Instructions
+<ol>
+<li>Preheat oven to 425°F (218°C). Spray a 12-count muffin pan with nonstick spray or use cupcake liners. Grease/line a second pan with 2 liners because this recipe yields about 14 muffins. Set aside.</li>
+<li>Mix all of the topping ingredients together. Set aside.</li>
+<li>Whisk the flour, baking soda, baking powder, and salt together in a large bowl. Set aside.</li>
+<li>Using a handheld or stand mixer fitted with a paddle or whisk attachment, beat the butter, granulated sugar, and brown sugar together on high speed until smooth and creamy, about 2 minutes. On medium speed, add the eggs one at a time, beating well after each addition. Beat in the sour cream and vanilla extract on medium speed until combined. With the mixer running on low speed, add the dry ingredients and milk into the wet ingredients and beat until no flour pockets remain. Fold in the blueberries.</li>
+<li>Spoon the batter into liners, filling them all the way to the top. Spoon brown sugar topping on each, gently pressing it down into the surface so it sticks. Bake for 5 minutes at 425 then, keeping the muffins in the oven, reduce the oven temperature to 350°F (177°C). Bake for an additional 18–20 minutes or until a toothpick inserted in the center comes out clean. The total time these muffins take in the oven is about 23–25 minutes, give or take. Allow the muffins to cool for 5 minutes in the muffin pan, then transfer to a wire rack to continue cooling.</li>
+<li>Muffins stay fresh covered at room temperature for a few days or in the refrigerator for up to 1 week.</li>
+</p>
+</div>
+
+<div id="myCarousel" class="carousel slide" >
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="file:///C:/Users/mkinsman/Documents/Coding_Class/images/muffin.jpg" alt="blueberry muffin">
+      </div>
+
+      <div class="item">
+        <img src="file:///C:/Users/mkinsman/Documents/Coding_Class/images/blueberry-streusel-muffins.jpg" alt="blueberry streusel muffins" >
+      </div>
+    
+      <div class="item">
+        <img src="file:///C:/Users/mkinsman/Documents/Coding_Class/images/blueberry-muffin.jpg" alt="blueberry muffins">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+
+
+</div>
+</body>
+
+<footer>
+<p>This is the footer</p>
+</footer>
+</html>
